@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.imgur.com/MYMbCBf.jpg'); /* Fondo futbolístico */
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+header {
+  background: linear-gradient(90deg, #0a0a23 0%, #003399 100%);
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px #000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, 0.189);
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  border-radius: 12px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #00bfff;
+  border-bottom: 3px solid #00bfff;
+  padding-bottom: 5px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+p, li {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+footer {
+  background: linear-gradient(90deg, #003399 0%, #0a0a23 100%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  text-shadow: 1px 1px 2px #000;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}

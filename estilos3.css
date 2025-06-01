@@ -1,0 +1,136 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #0c0c1c;
+  color: #ffffff;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(90deg, #001d3d, #003566);
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header .logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+
+header img {
+    max-width: 110px;
+    margin-top: 10px;
+    filter: drop-shadow(0 0 10px #ffffff88);
+}
+
+
+/* Sección principal */
+main {
+  padding: 40px 20px;
+}
+
+.tabla-goleadores h2 {
+  text-align: center;
+  color: #00b4d8;
+  margin-bottom: 30px;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #001845;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+th, td {
+  padding: 12px 20px;
+  text-align: center;
+}
+
+th {
+  background-color: #003566;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td {
+  border-top: 1px solid #003566;
+}
+
+tr:nth-child(even) {
+  background-color: #001d3d;
+}
+nav ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05em;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    transition: 0.4s ease;
+}
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    transition: 0.4s ease;
+}
+nav ul li a:hover::before {
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: #888888f5;
+}
+
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #001d3d;
+  color: #ffffff;
+  font-size: 0.9rem;
+  border-top: 1px solid #003566;
+}
