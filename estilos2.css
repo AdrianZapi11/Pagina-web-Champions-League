@@ -1,11 +1,10 @@
-/* RESET GENERAL */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* TIPOGRAFÍA GLOBAL */
 body {
     font-family: 'Poppins', 'Segoe UI', sans-serif;
     background: radial-gradient(circle at top, #0b1035 0%, #050a24 100%);
@@ -14,7 +13,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ENCABEZADO CON ESTILO CAMPEÓN */
+
 header {
     background: linear-gradient(135deg, #001441, #021a5c);
     padding: 40px 20px 25px;
@@ -86,7 +85,7 @@ nav ul li a:hover {
 }
 
 
-/* SECTIONS */
+
 section {
     padding: 60px 12% 40px;
     max-width: 1200px;
@@ -109,7 +108,7 @@ section p {
     text-align: justify;
 }
 
-/* IMAGES */
+
 section img {
     display: block;
     margin: 35px auto;
@@ -119,7 +118,7 @@ section img {
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.5);
 }
 
-/* TABLE */
+
 table {
     width: 100%;
     border-collapse: separate;
@@ -155,7 +154,7 @@ tr:hover {
     transition: background-color 0.3s ease;
 }
 
-/* CLUB ICONS */
+
 .logo-club {
     width: 28px;
     height: 28px;
@@ -165,7 +164,7 @@ tr:hover {
     border-radius: 50%;
 }
 
-/* FOOTER */
+
 footer {
     background-color: #001441;
     color: #ffffff;
@@ -176,7 +175,7 @@ footer {
     box-shadow: 0 -4px 18px rgba(0, 0, 0, 0.6);
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.2em;

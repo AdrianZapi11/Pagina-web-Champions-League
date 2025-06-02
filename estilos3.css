@@ -1,4 +1,4 @@
-/* General */
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -6,7 +6,7 @@ body {
   color: #ffffff;
 }
 
-/* Encabezado */
+
 header {
   background: linear-gradient(90deg, #001d3d, #003566);
   padding: 20px 0;
