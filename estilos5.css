@@ -42,6 +42,14 @@ header img {
   margin-bottom: 1rem;
 }
 
+.cuadro-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
 ul {
   padding-left: 1.5rem;
 }
